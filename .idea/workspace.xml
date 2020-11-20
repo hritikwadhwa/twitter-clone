@@ -192,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605775635426</updated>
-      <workItem from="1605775636520" duration="5381000" />
+      <workItem from="1605775636520" duration="14199000" />
     </task>
     <servers />
   </component>
@@ -235,10 +235,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605779343716" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605783306194">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605851493268">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605783306194" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605851493268" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/twitter_clone@test_should_get_about.rcov" NAME="test_should_get_about Coverage Results" MODIFIED="1605779581302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="twitter-clone" />
