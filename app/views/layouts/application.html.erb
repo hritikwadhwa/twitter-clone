@@ -4,25 +4,14 @@
     <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <%= link_to "Twitter", "" , class: "navbar-brand" %>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><%= link_to "About", static_pages_about_path %></li>
-        <li><%= link_to "Help", static_pages_help_path %></li>
-        <li><%= link_to "Contact", static_pages_contact_path %></li>
-      </ul>
-    </div>
-  </nav>
+  <%= render 'layouts/header' %>
   <div class="main-content">
     <%= yield %>
   </div>
+  <%= render 'layouts/footer' %>
   </body>
 </html>

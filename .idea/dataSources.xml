@@ -7,5 +7,17 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3-7</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="test [2]" uuid="babce20d-42ff-4243-9f29-dddbf078be53">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3-6</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test [3]" uuid="596457ca-3ad2-432f-b364-2b35ff7ab583">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3-3</jdbc-url>
+    </data-source>
   </component>
 </project>

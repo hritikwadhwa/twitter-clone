@@ -5,6 +5,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.text-center {
+  text-align: center;
+}
 .main-content {
-  margin-left: 20px;
+  margin: 20px;
+}
+
+.main-banner {
+  padding: 20px;
+}
+
+.footer {
+  width: 100%;
+  ul {
+    float: right;
+    list-style-type: none;
+    li {
+      float: left;
+      margin-right: 20px;
+      a:hover {
+        color: #2E2F30;
+        background-color: white;
+        text-decoration: none;
+      }
+    }
+  }
 }
