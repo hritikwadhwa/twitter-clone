@@ -7,6 +7,8 @@ ruby '2.7.0'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use bootstrap
 gem 'bootstrap-sass', '~> 3.4.1'
+# Use faker
+gem 'faker','>= 1.7.3'
 # Use bcrypt for password hash
 gem 'bcrypt',         '3.1.12'
 # Use sqlite3 as the database for Active Record

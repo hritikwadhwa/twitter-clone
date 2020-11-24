@@ -23,26 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd18f2e-98ce-4b41-b072-dfa8345b9396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/twitter-clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/twitter-clone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/forgot_password.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/create.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show_follows.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605775635426</updated>
       <workItem from="1605775636520" duration="22038000" />
-      <workItem from="1605944129037" duration="13218000" />
+      <workItem from="1605944129037" duration="18335000" />
     </task>
     <servers />
   </component>
@@ -239,58 +230,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606110153920" />
-    <state width="672" height="304" key="GridCell.Tab.0.bottom" timestamp="1606110830485">
+    <state width="672" height="245" key="GridCell.Tab.0.bottom" timestamp="1606214383430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606110830485" />
-    <state width="672" height="304" key="GridCell.Tab.0.center" timestamp="1606110830482">
+    <state width="672" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606214383430" />
+    <state width="672" height="245" key="GridCell.Tab.0.center" timestamp="1606214383429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606110830482" />
-    <state width="672" height="304" key="GridCell.Tab.0.left" timestamp="1606110830480">
+    <state width="672" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606214383429" />
+    <state width="672" height="245" key="GridCell.Tab.0.left" timestamp="1606214383429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606110830480" />
-    <state width="672" height="304" key="GridCell.Tab.0.right" timestamp="1606110830484">
+    <state width="672" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606214383429" />
+    <state width="672" height="245" key="GridCell.Tab.0.right" timestamp="1606214383430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606110830484" />
-    <state width="672" height="304" key="GridCell.Tab.1.bottom" timestamp="1606110830391">
+    <state width="672" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606214383430" />
+    <state width="672" height="245" key="GridCell.Tab.1.bottom" timestamp="1606214383432">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606110830391" />
+    <state width="672" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606214383432" />
     <state width="672" height="304" key="GridCell.Tab.1.bottom/0.25.1440.799@0.25.1440.799" timestamp="1606110754300" />
-    <state width="672" height="304" key="GridCell.Tab.1.center" timestamp="1606110830390">
+    <state width="672" height="245" key="GridCell.Tab.1.center" timestamp="1606214383431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606110830390" />
+    <state width="672" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606214383431" />
     <state width="672" height="304" key="GridCell.Tab.1.center/0.25.1440.799@0.25.1440.799" timestamp="1606110754299" />
-    <state width="672" height="304" key="GridCell.Tab.1.left" timestamp="1606110830389">
+    <state width="672" height="245" key="GridCell.Tab.1.left" timestamp="1606214383431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606110830389" />
+    <state width="672" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606214383431" />
     <state width="672" height="304" key="GridCell.Tab.1.left/0.25.1440.799@0.25.1440.799" timestamp="1606110754298" />
-    <state width="672" height="304" key="GridCell.Tab.1.right" timestamp="1606110830390">
+    <state width="672" height="245" key="GridCell.Tab.1.right" timestamp="1606214383432">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606110830390" />
+    <state width="672" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606214383432" />
     <state width="672" height="304" key="GridCell.Tab.1.right/0.25.1440.799@0.25.1440.799" timestamp="1606110754299" />
-    <state width="672" height="304" key="GridCell.Tab.2.bottom" timestamp="1606110830393">
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom" timestamp="1606116428742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606110830393" />
-    <state width="672" height="304" key="GridCell.Tab.2.center" timestamp="1606110830392">
+    <state width="1398" height="304" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606116428742" />
+    <state width="1398" height="304" key="GridCell.Tab.2.center" timestamp="1606116428742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1606110830392" />
-    <state width="672" height="304" key="GridCell.Tab.2.left" timestamp="1606110830392">
+    <state width="1398" height="304" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1606116428742" />
+    <state width="1398" height="304" key="GridCell.Tab.2.left" timestamp="1606116428741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1606110830392" />
-    <state width="672" height="304" key="GridCell.Tab.2.right" timestamp="1606110830393">
+    <state width="1398" height="304" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1606116428741" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right" timestamp="1606116428742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="672" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1606110830393" />
+    <state width="1398" height="304" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1606116428742" />
     <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1605776186757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -299,17 +290,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606110226514" />
-    <state x="421" y="205" width="597" height="584" key="find.popup" timestamp="1606108862582">
+    <state x="421" y="205" width="597" height="584" key="find.popup" timestamp="1606214423403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="597" height="584" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606108862582" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606111136869">
+    <state x="421" y="205" width="597" height="584" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606214423403" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606214143613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606111136869" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606214143613" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/twitter_clone@Development__twitter_clone.rcov" NAME="Development: twitter-clone Coverage Results" MODIFIED="1606110830324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="twitter-clone" />
+    <SUITE FILE_PATH="coverage/twitter_clone@Development__twitter_clone.rcov" NAME="Development: twitter-clone Coverage Results" MODIFIED="1606214383392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="twitter-clone" />
     <SUITE FILE_PATH="coverage/twitter_clone@test_should_get_about.rcov" NAME="test_should_get_about Coverage Results" MODIFIED="1606096108888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="twitter-clone" />
   </component>
 </project>
